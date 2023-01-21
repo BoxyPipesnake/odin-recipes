@@ -1,0 +1,57 @@
+:root {
+    /* fonts for project */
+    --title: 'Merienda One', cursive;
+    --principalFont: 'Quicksand', sans-serif;;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9edc9;
+    font-family: var(--principalFont);
+}
+
+
+h1 {
+    font-family: var(--title);
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+ }
+
+
+/* General Styles */
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./images/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    filter: brightness(0.5);
+
+}
+
+.hero .recipes-header {
+    font-size: 5rem;
+    color: white;
+}
