@@ -12,7 +12,6 @@ html {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    overflow-x: hidden;
 }
 
 body {
@@ -136,12 +135,26 @@ a {
         font-size: 1.5rem;
     } 
 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .btn-3 {
+        width: 40%;
+    }
+
     .section {
         padding: 2.5rem;
     }
 
-    .recipe {
-        display: flex;
+    .recipe-3 {
+        text-align: center;
     }
 
     .description-container {
