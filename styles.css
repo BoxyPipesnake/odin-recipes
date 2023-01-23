@@ -218,6 +218,10 @@ iframe {
     margin-top: 1rem;
 }
 
+.list-item, .ol-list-item {
+    margin-top: 1rem;
+}
+
 .btn-recipe {
     margin-top: 1.5rem;
     background-color: #e9edc9;
@@ -261,13 +265,43 @@ iframe {
         margin-top: 2rem;
     }
 
-    .list-item, .ol-list-item {
-        margin-top: 1rem;
-    }
+   
 
     .iframe {
         width: 500px;
         height: 300px;
     }
 
+}
+
+/* Recipe 2 */
+
+.wrapper-recipe2 {
+    background-color: #bad4aa;
+    padding-bottom: 1.5rem;
+}
+
+.btn-recipe-2 {
+    text-align: center;
+    text-decoration: initial;
+    color: blue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn-recipe-2:hover {
+    scale: 1.1;
+    background-color: #ffa200;
+
+}
+
+
+/* Recipe 3 */
+
+.wrapper-recipe3 {
+    background-color: #ffd151;
+    padding-bottom: 1.5rem;
 }
